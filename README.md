@@ -133,14 +133,16 @@ rosbag play ./datasets/rgbd_dataset_freiburg3_walking_xyz.bag
 
 ```text
 GDN-SLAM/
-├── Examples/
-├── Vocabulary/
-├── Thirdparty/
-├── include/
-├── src/
+├── .gitignore
+├── CMakeLists.txt
+├── Dependencies.md
+├── LICENSE.txt
+├── License-gpl.txt
+├── README.md
 ├── build.sh
 ├── build_ros.sh
-└── README.md
+├── evaluate_ate.py
+├── evaluate_rpe.py
 ```
 
 ## Notes
